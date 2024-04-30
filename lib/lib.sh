@@ -551,5 +551,5 @@ esac
 if [ "$SUPPORTED" == false ]; then
   output "$OS $OS_VER is not supported"
   error "Unsupported OS"
- # exit 1
+  exit 1
 fi
